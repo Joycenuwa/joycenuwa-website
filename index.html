@@ -3,35 +3,53 @@
 
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@graph":[
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@type":"Person",
-      "@id":"https://joycenuwa.com/#person",
-      "name":"Joyce Aranuwa",
-      "alternateName":"Joycenuwa",
-      "url":"https://joycenuwa.com/",
-      "image":"https://joycenuwa.com/images/joycenuwa-preview.jpg",
-      "jobTitle":"Visual Artist and Fashion Designer",
-      "description":"Joyce Aranuwa is a multidisciplinary visual artist and fashion designer working under the creative identity Joycenuwa.",
-      "sameAs":[
-        "https://www.instagram.com/joycenuwa"
-      ],
-      "worksFor":{
-        "@id":"https://joycenuwa.com/#organization"
+      "@type": "WebSite",
+      "@id": "https://joycenuwa.com/#website",
+      "url": "https://joycenuwa.com/",
+      "name": "Joycenuwa",
+      "description": "Joycenuwa brings together visual art, digital mixed media and fashion.",
+      "inLanguage": "en-GB",
+      "publisher": {
+        "@id": "https://joycenuwa.com/#organization"
       }
     },
     {
-      "@type":"Organization",
-      "@id":"https://joycenuwa.com/#organization",
-      "name":"Joycenuwa",
-      "url":"https://joycenuwa.com/",
-      "logo":"https://joycenuwa.com/favicon.jpg",
-      "image":"https://joycenuwa.com/images/joycenuwa-preview.jpg",
-      "founder":{
-        "@id":"https://joycenuwa.com/#person"
+      "@type": "Organization",
+      "@id": "https://joycenuwa.com/#organization",
+      "name": "Joycenuwa",
+      "url": "https://joycenuwa.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://joycenuwa.com/favicon.jpg"
       },
-      "sameAs":[
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://joycenuwa.com/images/joycenuwa-preview.jpg"
+      },
+      "description": "Joycenuwa is a multidisciplinary creative practice bringing together visual art, digital mixed media and fashion.",
+      "founder": {
+        "@id": "https://joycenuwa.com/#person"
+      },
+      "sameAs": [
+        "https://www.instagram.com/joycenuwa"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://joycenuwa.com/#person",
+      "name": "Joyce Aranuwa",
+      "alternateName": "Joycenuwa",
+      "url": "https://joycenuwa.com/about.html",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://joycenuwa.com/images/joycenuwa-preview.jpg"
+      },
+      "jobTitle": "Visual Artist and Fashion Designer",
+      "description": "Joyce Aranuwa is a multidisciplinary visual artist and fashion designer working under the creative identity Joycenuwa.",
+      "sameAs": [
         "https://www.instagram.com/joycenuwa"
       ]
     }
@@ -40,6 +58,15 @@
 </script>
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1NJHQGSDSH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1NJHQGSDSH');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joycenuwa | Visual Art, Digital Mixed Media and Fashion</title>
@@ -72,6 +99,8 @@ content="Visual Art • Digital Mixed Media • Fashion">
 
 <meta name="twitter:image"
 content="https://joycenuwa.com/images/joycenuwa-preview.jpg">
+
+<meta name="theme-color" content="#080706">
 
 <link rel="canonical" href="https://joycenuwa.com/">
 
