@@ -2219,3 +2219,14 @@ body > header nav a:hover {
         justify-content: center;
     }
 }
+/* Fashion landing page */
+
+.fashion-options {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 900px) {
+    .fashion-options {
+        grid-template-columns: 1fr;
+    }
+}
